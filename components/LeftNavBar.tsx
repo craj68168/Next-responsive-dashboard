@@ -1,6 +1,13 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import { faBookOpen, faTachometerAlt,faHeart,faCog,faSignOut,faRocket } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBookOpen,
+  faTachometerAlt,
+  faHeart,
+  faCog,
+  faSignOut,
+  faRocket,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const LeftNavBar = () => {
   return (

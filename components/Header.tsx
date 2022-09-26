@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import image from "../public/favicon.ico";
-import Image from "next/image"
+import Image from "next/image";
 const Header = () => {
   return (
     <div className={styles.headcontainer}>
@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className={styles.profile}>
         {/* <img src={Image} alt="profile" className={styles.profile} /> */}
-        <Image src={image}/>
+        <Image src={image} width={40} height={40} />
       </div>
     </div>
   );

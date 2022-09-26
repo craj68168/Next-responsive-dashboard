@@ -61,37 +61,44 @@
 }
 
 /* header section css */
-.headcontainer{
+.headcontainer {
   height: 70px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 200px;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
 }
 
-.headwrapper{
+.headwrapper {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.title{
+.title {
   margin-left: 40px;
-  
 }
-.title>h2{
-  color:black
+.title > h2 {
+  color: black;
 }
-.title>p{
-  color:black
+.title > p {
+  color: black;
 }
-.profile{
+.profile {
   position: absolute;
   right: 20px;
+  top: 10px;
+}
+.img {
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-
-/* @media only screen and (max-width:768px){
-  .headcontainer{
-    width: 600px;
+@media only screen and (max-width: 768px) {
+  .headcontainer {
+    width: 100%;
+    margin-left: 70px;
   }
-} */
+  .profile {
+    margin-right: 5px;
+  }
+}

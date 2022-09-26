@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <Header />
 
       {/* Content */}
-      <Content />
+      {/* <Content /> */}
     </div>
   );
 };

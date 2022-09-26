@@ -11,7 +11,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const LeftNavBar = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.navcontainer}>
       <div className={styles.logo}>
         <h2>StreamLine</h2>
       </div>

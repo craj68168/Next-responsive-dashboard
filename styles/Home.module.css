@@ -133,33 +133,51 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  .tabs{
+  .tabs {
     width: 350px;
   }
 }
 
-.charts{
-  display:flex;
+.charts {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.bar{
-  margin-left:10px ;
+.bar {
+  margin-left: 10px;
 }
-.circle{
-margin-left: 10px;
+.circle {
+  margin-left: 10px;
 }
 
-@media only screen and (max-width:768px) {
-  .charts{
+@media only screen and (max-width: 768px) {
+  .charts {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
   }
-  .bar>h2{
+  .bar > h2 {
     text-align: center;
     font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .circle > h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .bar {
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  .circle {
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
   }
 }

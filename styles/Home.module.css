@@ -198,3 +198,24 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .charts {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .bar > h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+  }
+} 

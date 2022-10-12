@@ -182,13 +182,13 @@
   }
 } */
 
-.charts{
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
+.charts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-left: 40px;
   gap: 40px;
 }
-.bar{
+.bar {
   width: 300px;
   height: 100px;
   border-radius: 20px;
@@ -218,4 +218,4 @@
     height: 100px;
     margin-left: 10px;
   }
-} 
+}

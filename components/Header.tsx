@@ -14,7 +14,7 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.profile}>
-        {/* <Image src={image} width={40} height={40} /> */}
+        {/* <Image src="" alt="Picture of the author" width={40} height={40} /> */}
       </div>
     </div>
   );
